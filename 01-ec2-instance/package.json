@@ -1,0 +1,16 @@
+{
+  "name": "pulumi-aws-examples",
+  "main": "index.ts",
+  "scripts": {
+    "keygen": "mkdir -p keys && ssh-keygen -t rsa -f keys/rsa -m PEM"
+  },
+  "devDependencies": {
+    "@types/node": "^18"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^6.0.0",
+    "@pulumi/awsx": "^2.0.2",
+    "@pulumi/pulumi": "^3.113.0",
+    "typescript": "^5.0.0"
+  }
+}
