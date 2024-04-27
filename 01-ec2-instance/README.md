@@ -27,11 +27,11 @@ Before you begin, make sure you have the following:
 
 3. Create a Stack:
 
-After initializing Pulumi, you need to create a new stack to manage your AWS resources. You can create a stack using the following command:
+    After initializing Pulumi, you need to create a new stack to manage your AWS resources. You can create a stack using the following command:
 
-```bash
-pulumi stack init <stack-name>
-```
+    ```bash
+    pulumi stack init <stack-name>
+    ```
 
 4. Set the key name for AWS login:
 
