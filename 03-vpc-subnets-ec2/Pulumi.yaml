@@ -1,0 +1,7 @@
+name: 03-vpc-subnets-ec2
+runtime: nodejs
+description: A minimal TypeScript Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: typescript
