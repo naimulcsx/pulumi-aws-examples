@@ -1,0 +1,7 @@
+name: 04-ecs-fargate
+runtime: nodejs
+description: A minimal AWS TypeScript Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
