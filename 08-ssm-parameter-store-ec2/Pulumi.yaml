@@ -1,0 +1,7 @@
+name: 08-ssm-parameter-store-ec2
+runtime: nodejs
+description: A minimal AWS TypeScript Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
